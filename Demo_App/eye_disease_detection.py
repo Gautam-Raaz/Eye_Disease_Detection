@@ -2,10 +2,12 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 from PIL import Image
+import os
 
 
 # Load the model
-model = tf.keras.models.load_model("student_model.keras")
+model_path = os.path.join(os.path.dirname(__file__), "student_model.keras")
+model = tf.keras.models.load_model(model_path)
 
 # Preprocess function (grayscale + resize + equalizeHist)
 def preprocess_image(uploaded_image):
