@@ -49,4 +49,4 @@ You can run the notebooks to train/test the models or directly load the saved mo
 1. Go to the **Demo App** folder.
 2. Open the terminal and run:
    ```bash
-   streamlit run Final_Disease.py
+   streamlit run eye_disease_detection.py
