@@ -15,6 +15,10 @@ The repository contains 2 main folders:
 ### 1. **Demo App**
 This folder contains the code for the eye disease detection app built using **Streamlit**. The app allows you to upload a retinal fundus image and receive a prediction of the most probable eye disease.
 
+#### 🔗 Try the Web App  
+You can try the live demo here:  
+👉 [https://eye-disease-detections.streamlit.app/](https://eye-disease-detections.streamlit.app/)
+
 ### 2. **Final Code**
 This folder contains the code for training and testing models for detecting various eye diseases from retinal fundus images. The code is organized into subfolders for each disease, containing Python notebooks for training/testing the models and the trained model files.
 
@@ -45,7 +49,7 @@ You can run the notebooks to train/test the models or directly load the saved mo
    - `Runtime` → `Run all`.
 6. The model will train and the `.keras` file will be saved in the respective folder.
 
-### Running the Streamlit Demo App
+### Running the Streamlit Demo App Locally
 1. Go to the **Demo App** folder.
 2. Open the terminal and run:
    ```bash
