@@ -6,7 +6,7 @@ import os
 
 
 # Load the model
-model_path = os.path.join(os.path.dirname(__file__), "student_model.keras")
+model_path = os.path.join(os.path.dirname(__file__), "stundent_model.keras")
 model = tf.keras.models.load_model(model_path)
 
 # Preprocess function (grayscale + resize + equalizeHist)
