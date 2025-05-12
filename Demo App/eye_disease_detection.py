@@ -1,16 +1,7 @@
 import streamlit as st
 import tensorflow as tf
 import numpy as np
-import cv2
-import os
 from PIL import Image
-import tensorflow as tf
-from tensorflow.keras.layers import Input, Dense, Dropout, LayerNormalization, Add, GlobalAveragePooling1D
-from tensorflow.keras.models import Model
-from tensorflow.keras.layers import MultiHeadAttention
-from tensorflow.keras import mixed_precision
-from tensorflow.keras.callbacks import ModelCheckpoint, EarlyStopping
-from tensorflow.keras.optimizers import Adam
 
 
 # Load the model
